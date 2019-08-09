@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import './index.css';
+import './team.css';
+
 import * as serviceWorker from './serviceWorker';
 
 // If you want your app to work offline and load faster, you can change
