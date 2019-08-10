@@ -22,7 +22,7 @@ const location = window.location;
       if (target.length) {
         $('html, body').animate({
           scrollTop: (target.offset().top - 70)
-        }, 1000, "easeInOutExpo");
+        }, 1000);
         return false;
       }
     }
@@ -30,7 +30,7 @@ const location = window.location;
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
+    $('.navbar-collapse').addClass('hide');
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
