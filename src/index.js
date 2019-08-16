@@ -31,6 +31,10 @@ const location = window.location;
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').addClass('hide');
   });
+  //Image Flip :
+$('.image-flip').click(function() {
+    $(this).addClass('hover').removeClass('hover');
+  });
 
   // Activate scrollspy to add active class to navbar items on scroll
   // $('body').scrollspy({
