@@ -30,3 +30,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run deploy`
 Add field to package.json when deploying to github
 -  "homepage": "https://montoya332.github.io/helping-families",
+
+### `Google Cloud`
+gsutil iam ch allUsers:objectViewer gs://www.helpingfamiliesinsiliconvalley.org/
