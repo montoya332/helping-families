@@ -1,19 +1,27 @@
 {
   "files": {
     "main.css": "/helping-families/static/css/main.8f4f5982.chunk.css",
-    "main.js": "/helping-families/static/js/main.fe93a67a.chunk.js",
-    "main.js.map": "/helping-families/static/js/main.fe93a67a.chunk.js.map",
-    "runtime~main.js": "/helping-families/static/js/runtime~main.faa80e23.js",
-    "runtime~main.js.map": "/helping-families/static/js/runtime~main.faa80e23.js.map",
-    "static/css/2.b0c787b9.chunk.css": "/helping-families/static/css/2.b0c787b9.chunk.css",
-    "static/js/2.9e1b7e7d.chunk.js": "/helping-families/static/js/2.9e1b7e7d.chunk.js",
-    "static/js/2.9e1b7e7d.chunk.js.map": "/helping-families/static/js/2.9e1b7e7d.chunk.js.map",
+    "main.js": "/helping-families/static/js/main.7dd1fa06.chunk.js",
+    "main.js.map": "/helping-families/static/js/main.7dd1fa06.chunk.js.map",
+    "runtime-main.js": "/helping-families/static/js/runtime-main.95054977.js",
+    "runtime-main.js.map": "/helping-families/static/js/runtime-main.95054977.js.map",
+    "static/css/2.50de07a5.chunk.css": "/helping-families/static/css/2.50de07a5.chunk.css",
+    "static/js/2.26190139.chunk.js": "/helping-families/static/js/2.26190139.chunk.js",
+    "static/js/2.26190139.chunk.js.map": "/helping-families/static/js/2.26190139.chunk.js.map",
     "index.html": "/helping-families/index.html",
-    "precache-manifest.013bec87a598c361847992696d1b87f5.js": "/helping-families/precache-manifest.013bec87a598c361847992696d1b87f5.js",
+    "precache-manifest.bb19df76c475a58718f9c911d9938f44.js": "/helping-families/precache-manifest.bb19df76c475a58718f9c911d9938f44.js",
     "service-worker.js": "/helping-families/service-worker.js",
-    "static/css/2.b0c787b9.chunk.css.map": "/helping-families/static/css/2.b0c787b9.chunk.css.map",
+    "static/css/2.50de07a5.chunk.css.map": "/helping-families/static/css/2.50de07a5.chunk.css.map",
     "static/css/main.8f4f5982.chunk.css.map": "/helping-families/static/css/main.8f4f5982.chunk.css.map",
+    "static/js/2.26190139.chunk.js.LICENSE": "/helping-families/static/js/2.26190139.chunk.js.LICENSE",
     "static/media/index.css": "/helping-families/static/media/classRoom.552d4670.jpg",
-    "static/media/all.css": "/helping-families/static/media/fa-solid-900.fdc155d5.svg"
-  }
+    "static/media/all.css": "/helping-families/static/media/fa-solid-900.f6121be5.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95054977.js",
+    "static/css/2.50de07a5.chunk.css",
+    "static/js/2.26190139.chunk.js",
+    "static/css/main.8f4f5982.chunk.css",
+    "static/js/main.7dd1fa06.chunk.js"
+  ]
 }
