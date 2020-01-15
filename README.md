@@ -32,4 +32,4 @@ Add field to package.json when deploying to github
 -  "homepage": "https://montoya332.github.io/helping-families",
 
 ### `Google Cloud`
-gsutil iam ch allUsers:objectViewer gs://www.helpingfamiliesinsiliconvalley.org/
+gsutil iam ch allUsers:objectViewer gs://www.helpingfamiliesinsv.org/
