@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/helping-families/static/css/main.0b97d35b.chunk.css",
+    "main.css": "/helping-families/static/css/main.c2f20fba.chunk.css",
     "main.js": "/helping-families/static/js/main.7dd1fa06.chunk.js",
     "main.js.map": "/helping-families/static/js/main.7dd1fa06.chunk.js.map",
     "runtime-main.js": "/helping-families/static/js/runtime-main.95054977.js",
@@ -9,10 +9,10 @@
     "static/js/2.dda9bd06.chunk.js": "/helping-families/static/js/2.dda9bd06.chunk.js",
     "static/js/2.dda9bd06.chunk.js.map": "/helping-families/static/js/2.dda9bd06.chunk.js.map",
     "index.html": "/helping-families/index.html",
-    "precache-manifest.c9aa3b4f1c95eca938a1e30846c62d07.js": "/helping-families/precache-manifest.c9aa3b4f1c95eca938a1e30846c62d07.js",
+    "precache-manifest.ec53269bc2e349acce2f2a9c39210cfe.js": "/helping-families/precache-manifest.ec53269bc2e349acce2f2a9c39210cfe.js",
     "service-worker.js": "/helping-families/service-worker.js",
     "static/css/2.432f5eff.chunk.css.map": "/helping-families/static/css/2.432f5eff.chunk.css.map",
-    "static/css/main.0b97d35b.chunk.css.map": "/helping-families/static/css/main.0b97d35b.chunk.css.map",
+    "static/css/main.c2f20fba.chunk.css.map": "/helping-families/static/css/main.c2f20fba.chunk.css.map",
     "static/js/2.dda9bd06.chunk.js.LICENSE.txt": "/helping-families/static/js/2.dda9bd06.chunk.js.LICENSE.txt",
     "static/media/index.css": "/helping-families/static/media/classRoom.552d4670.jpg",
     "static/media/all.css": "/helping-families/static/media/fa-solid-900.cdfec5cf.woff"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.95054977.js",
     "static/css/2.432f5eff.chunk.css",
     "static/js/2.dda9bd06.chunk.js",
-    "static/css/main.0b97d35b.chunk.css",
+    "static/css/main.c2f20fba.chunk.css",
     "static/js/main.7dd1fa06.chunk.js"
   ]
 }
