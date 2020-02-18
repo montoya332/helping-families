@@ -13,8 +13,8 @@
     gtag('config', 'UA-156334480-1');
   </script>
 
-
-
+  <script src="https://www.paypal.com/sdk/js?client-id=AXdc9AQ6kTKOvhHy-AXAlf86g4yayIcjpSz33Dv40RRlOtkfo-5iA4efwrHq4nUJy3eaAgdSGvSFlW4l">
+  </script>
   <link rel="shortcut icon" href="%PUBLIC_URL%/logo.svg" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
@@ -176,6 +176,25 @@
   </div>
   <div class="overlay"></div>
 </section>
+  <section id="paypal-section" class="pb-5 bg-light page-section" >
+    <div class="container">
+      <h5 class="section-title h1">Donate</h5>
+      <div id="paypal-button-container"></div>
+      <div id="paypal-success-container" style="display: none;">
+        <h4 class="h4">Thank you</h4>
+      </div>
+      <script>
+        paypal.Buttons({
+          onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+              console.log(details)
+              $('#paypal-button-container').hide();
+              $('#paypal-success-container').show();
+            });
+          }}).render('#paypal-button-container');
+      </script>
+    </div>
+  </section>
 
 <section class="contact bg-navy-blue-3 text-white" id="contact">
   <div class="container">
