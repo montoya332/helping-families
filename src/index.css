@@ -294,11 +294,15 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("./img/classRoom.jpg");
   background-position: center;
   background-size: cover;
 }
-
+.bg-img-classroom {
+  background-image: url("./img/classRoom.jpg");
+}
+.bg-img-group {
+  background-image: url("./img/classRoom.jpg");
+}
 section.cta .cta-content {
   position: relative;
   z-index: 1;
@@ -439,4 +443,14 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 .bg-navy-blue {
   background-color: #000067;
+}
+.bg-navy-blue-2 {
+  background-color: #4267b2;
+}
+.bg-navy-blue-3{
+  background-color: #120e3c;
+}
+
+.bg-navy-blue-4{
+  background-color: #274fa1;
 }
