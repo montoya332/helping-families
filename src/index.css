@@ -159,7 +159,6 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-    background-image: url("./img/classRoom.jpg");
   background-position: center;
   background-size: cover;
   /*
@@ -304,7 +303,12 @@ section.cta {
   background-image: url("./img/classRoom.jpg");
 }
 .bg-img-smart-goals-group {
-  background-image: url("./img/smart_goals_workshop.jpeg");
+  background-image: url("./img/smart_goals_workshop_crop.jpeg");
+}
+@media (min-width: 768px) {
+  .bg-img-smart-goals-group.masthead {
+    background-image: url("./img/classRoom.jpg");
+  }
 }
 section.cta .cta-content {
   position: relative;
