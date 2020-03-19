@@ -33,4 +33,4 @@ Add field to package.json when deploying to github
 
 ### `Google Cloud`
 gsutil iam ch allUsers:objectViewer gs://www.helpingfamiliesinsv.org/
-gsutil rsync -R build gs://www.helpingfamiliesinsv.org/
+gsutil -m rsync -R build gs://www.helpingfamiliesinsv.org/
