@@ -6,13 +6,15 @@ function App() {
   return (
     <div className="App">
         <header>
-            <Navbar fixed="top">
+            <Navbar id="mainNav" className="navbar-brand" fixed="top">
                 navbar info here
             </Navbar>
         </header>
+
         <section>
             sections here
         </section>
+
         <footer>
             footer info here
         </footer>
