@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar.js';
 import Blog from './Components/Blog.js';
 import Team from './Components/Team.js';
 import Classroom from './Components/Classroom.js';
+import Contacts from './Components/Contacts.js';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Blog />
         <Team />
         <Classroom />
+        <Contacts />
+
+        
 
     </div>
   );
