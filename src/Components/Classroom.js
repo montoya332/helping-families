@@ -3,13 +3,13 @@ import React from 'react';
 const Classroom = () => {
   return (
     <div className="Classroom">
-        <div class="cta-content">
-            <div class="container">
+        <div className="cta-content">
+            <div className="container">
               <h2>Stop waiting.<br/>Start Getting Involved.</h2>
-              <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+              <a href="#contact" className="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
             </div>
           </div>
-          <div class="overlay"></div>
+          <div className="overlay"></div>
     </div>
   );
 }
