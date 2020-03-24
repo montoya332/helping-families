@@ -2,7 +2,7 @@ import React from 'react';
 
 const Classroom = () => {
   return (
-    <div className="Classroom">
+<section class="cta bg-img-classroom">
         <div className="cta-content">
             <div className="container">
               <h2>Stop waiting.<br/>Start Getting Involved.</h2>
@@ -10,7 +10,7 @@ const Classroom = () => {
             </div>
           </div>
           <div className="overlay"></div>
-    </div>
+    </section>
   );
 }
 

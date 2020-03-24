@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacts = () => {
   return (
-    <div className="Contacts">
+<section class="contact bg-navy-blue-3 text-white" id="contact">
         <div className="container">
             <p>
               <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VFZQL9TJ28Y52&source=url">
@@ -25,7 +25,7 @@ const Contacts = () => {
               </li>
             </ul>
           </div>
-    </div>
+    </section>
   );
 }
 

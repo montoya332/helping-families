@@ -2,7 +2,7 @@ import React from 'react';
 
 const Team = () => {
   return (
-    <div className="Team">
+<section id="team" class="pb-5 bg-light page-section" id="team">
         <div className="container">
             <h5 className="section-title h1">Founders</h5>
             <div className="row">
@@ -87,7 +87,7 @@ const Team = () => {
               </div>
             </div>
           </div>
-    </div>
+    </section>
   );
 }
 
