@@ -12,16 +12,14 @@ import Footer from './Components/Footer.js';
 function App() {
   return (
     <div className="App">
-
-        <NavBar />
-        <Header />
-        <Blog />
-        <Vision />
-        <Team />
-        <Classroom />
-        <Contacts />
-        <Footer />
-
+      <NavBar />
+      <Header />
+      <Blog />
+      <Vision />
+      <Team />
+      <Classroom />
+      <Contacts />
+      <Footer />
     </div>
   );
 }
