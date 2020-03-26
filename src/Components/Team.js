@@ -22,7 +22,7 @@ const TeamInfo = [
 ];
 const Team = () => {
   return (
-    <section id="team" class="pb-5 bg-light page-section" id="team">
+    <section id="team" class="pb-5 bg-light page-section">
       <div className="container">
         <h5 className="section-title h1">Founders</h5>
         <div className="row">
