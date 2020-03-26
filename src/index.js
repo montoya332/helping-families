@@ -16,28 +16,33 @@ serviceWorker.unregister();
 
 const location = window.location;
 
-(function($) {
-
+(function ($) {
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+    if (
+      location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') &&
+      location.hostname === this.hostname
+    ) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 70)
-        }, 1000);
+        $('html, body').animate(
+          {
+            scrollTop: target.offset().top - 70
+          },
+          1000
+        );
         return false;
       }
     }
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
+  $('.js-scroll-trigger').click(function () {
     $('.navbar-collapse').addClass('hide');
   });
   //Image Flip :
-$('.image-flip').click(function() {
+  $('.image-flip').click(function () {
     $(this).addClass('hover').removeClass('hover');
   });
 
@@ -48,14 +53,14 @@ $('.image-flip').click(function() {
   // });
   window.$ = $;
   // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 200) {
-      $("#mainNav").addClass("navbar-shrink");
+  var navbarCollapse = function () {
+    if ($('#mainNav').offset().top > 200) {
+      $('#mainNav').addClass('navbar-shrink');
     } else {
-      $("#mainNav").removeClass("navbar-shrink");
+      $('#mainNav').removeClass('navbar-shrink');
       var top = window.document.documentElement.scrollTop || window.document.body.scrollTop;
-      if(top  === -1){
-         $('html, body').animate({ scrollTop: 0 }, 1);
+      if (top === -1) {
+        $('html, body').animate({scrollTop: 0}, 1);
       }
     }
   };
@@ -63,5 +68,4 @@ $('.image-flip').click(function() {
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
-
 })($); // End of use strict
