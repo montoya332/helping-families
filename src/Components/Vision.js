@@ -1,4 +1,5 @@
 import React from 'react';
+import company from '../data/companyInfo';
 
 const Vision = () => {
   return (
@@ -6,10 +7,7 @@ const Vision = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
-            <h2 className="section-heading">
-              Our vision is to uplift and strengthen parents, guardians, and individuals to help them reach their full
-              potential.
-            </h2>
+            <h2 className="section-heading">{company.vision}</h2>
             <p>Contact Us to get started!</p>
           </div>
         </div>

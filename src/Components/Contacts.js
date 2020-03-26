@@ -1,21 +1,23 @@
 import React from 'react';
+import company from '../data/companyInfo';
 
-const contactList = [{
-name: 'instagram',
-url: 'https://instagram.com/helpingfamiliesinsiliconvalley?helping=families',
-iconClassName: 'fab fa-instagram',
-},
-{
-name: 'email',
-url: 'mailto:info@helpingfamiliesinsv.org',
-iconClassName: 'fas fa-envelope',
-},
-{
-name: 'facebook',
-url: 'https://www.facebook.com/Helping-Families-in-Silicon-Valley-102948694690106?helping=families',
-iconClassName: 'fab fa-facebook',
-}]
-
+const contactList = [
+  {
+    name: 'instagram',
+    url: company.instagram,
+    iconClassName: 'fab fa-instagram'
+  },
+  {
+    name: 'email',
+    url: `mailto:${company.email}`,
+    iconClassName: 'fas fa-envelope'
+  },
+  {
+    name: 'facebook',
+    url: company.facebook,
+    iconClassName: 'fab fa-facebook'
+  }
+];
 const Contacts = () => {
   return (
     <section class="contact bg-navy-blue-3 text-white" id="contact">
@@ -29,17 +31,15 @@ const Contacts = () => {
           Email: <a href="mailto:info@helpingfamiliesinsv.org">info@helpingfamiliesinsv.org</a>
         </p>
         <ul className="list-inline list-social">
-            {
-                contactList.map(contact => {
-                    return (
-                        <li className="list-inline-item">
-                            <a href={contact.url}>
-                              <i className={contact.iconClassName}></i>
-                            </a>
-                        </li>
-                    )
-                })
-            }
+          {contactList.map((contact) => {
+            return (
+              <li className="list-inline-item">
+                <a href={contact.url}>
+                  <i className={contact.iconClassName}></i>
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>
