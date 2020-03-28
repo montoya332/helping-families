@@ -17,7 +17,7 @@ const Team = () => {
                       <Card>
                         <Card.Body className="card-body text-center">
                           <Card.Img className="img-fluid" src={person.imgUrl} alt="card image" />
-                            <br></br> <br></br>
+                          <br></br> <br></br>
                           <Card.Title className="card-title">{person.fullName}</Card.Title>
                           <Card.Subtitle className="card-text">{person.title}</Card.Subtitle>
                         </Card.Body>
