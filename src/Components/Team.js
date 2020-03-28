@@ -14,20 +14,18 @@ const Team = () => {
                 <div className="image-flip">
                   <div className="mainflip">
                     <div className="frontside">
-
-                        <Card body className="card-body text-center">
+                        <Card body className="text-center">
+                          <br/>
                           <Card.Img className="img-fluid" src={person.imgUrl} alt="card image" />
-                          <br></br> <br></br>
-                          <Card.Title className="card-title">{person.fullName}</Card.Title>
-                          <Card.Subtitle className="card-text">{person.title}</Card.Subtitle>
+                          <br/><br/><br/>    
+                          <Card.Title>{person.fullName}</Card.Title>
+                          <Card.Subtitle>{person.title}</Card.Subtitle>
                         </Card>
-                      
                     </div>
                     <div className="backside">
-
-                        <Card body className="card-body text-center mt-4">
-                          <Card.Title className="card-title">{person.fullName}</Card.Title>
-                          <Card.Subtitle className="card-text text-small">{person.bio}</Card.Subtitle>
+                        <Card body className="text-center">
+                          <Card.Title>{person.fullName}</Card.Title>
+                          <Card.Subtitle>{person.bio}</Card.Subtitle>
                           <br></br>
                           <ul className="list-inline social-buttons">
                             <li className="list-inline-item">
@@ -42,7 +40,6 @@ const Team = () => {
                             </li>
                           </ul>
                         </Card>
-                      
                     </div>
                   </div>
                 </div>
