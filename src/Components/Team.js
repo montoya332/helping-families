@@ -1,5 +1,6 @@
 import React from 'react';
 import {teamInfo} from '../data/companyInfo';
+import Card from 'react-bootstrap/Card';
 
 const Team = () => {
   return (
@@ -13,18 +14,17 @@ const Team = () => {
                 <div className="image-flip">
                   <div className="mainflip">
                     <div className="frontside">
-                      <div className="card">
-                        <div className="card-body text-center">
-                          <p>
-                            <img className="img-fluid" src={person.imgUrl} alt="card image" />
-                          </p>
-                          <h4 className="card-title">{person.fullName}</h4>
-                          <p className="card-text">{person.title}</p>
-                        </div>
-                      </div>
+                      <Card>
+                        <Card.Body className="card-body text-center">
+                          <Card.Img className="img-fluid" src={person.imgUrl} alt="card image" />
+                            <br></br> <br></br>
+                          <Card.Title className="card-title">{person.fullName}</Card.Title>
+                          <Card.Subtitle className="card-text">{person.title}</Card.Subtitle>
+                        </Card.Body>
+                      </Card>
                     </div>
                     <div className="backside">
-                      <div className="card">
+                      <Card>
                         <div className="card-body text-center mt-4">
                           <h4 className="card-title">{person.fullName}</h4>
                           <h6 className="card-text text-small">{person.bio}</h6>
@@ -41,7 +41,7 @@ const Team = () => {
                             </li>
                           </ul>
                         </div>
-                      </div>
+                      </Card>
                     </div>
                   </div>
                 </div>
