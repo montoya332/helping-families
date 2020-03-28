@@ -82,6 +82,9 @@ section h2 {
 }
 .helping-families-logo{fill:#1B1464;}
 
+/*!
+what is .navbar-toggler? can i delete this?
+ */
 #mainNav .navbar-toggler {
   font-size: 12px;
   padding: 8px 10px;
