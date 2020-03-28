@@ -14,18 +14,18 @@ const Team = () => {
                 <div className="image-flip">
                   <div className="mainflip">
                     <div className="frontside">
-                      <Card>
-                        <Card.Body className="card-body text-center">
+
+                        <Card body className="card-body text-center">
                           <Card.Img className="img-fluid" src={person.imgUrl} alt="card image" />
                           <br></br> <br></br>
                           <Card.Title className="card-title">{person.fullName}</Card.Title>
                           <Card.Subtitle className="card-text">{person.title}</Card.Subtitle>
-                        </Card.Body>
-                      </Card>
+                        </Card>
+                      
                     </div>
                     <div className="backside">
-                      <Card>
-                        <Card.Body className="card-body text-center mt-4">
+
+                        <Card body className="card-body text-center mt-4">
                           <Card.Title className="card-title">{person.fullName}</Card.Title>
                           <Card.Subtitle className="card-text text-small">{person.bio}</Card.Subtitle>
                           <br></br>
@@ -41,8 +41,8 @@ const Team = () => {
                               </a>
                             </li>
                           </ul>
-                        </Card.Body>
-                      </Card>
+                        </Card>
+                      
                     </div>
                   </div>
                 </div>
