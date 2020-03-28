@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 const NavBar = () => {
   return (
-    <Navbar fixed="top" id="mainNav">
+    <Navbar fixed="top" variant="light" id="mainNav">
       <div className="container">
         <Navbar.Brand className="navbar-brand js-scroll-trigger" href="#page-top">
           <span className="d-none d-sm-inline mr-2">
