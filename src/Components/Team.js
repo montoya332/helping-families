@@ -14,32 +14,34 @@ const Team = () => {
                 <div className="image-flip">
                   <div className="mainflip">
                     <div className="frontside">
-                        <Card body className="text-center">
-                          <br/>
-                          <Card.Img className="img-fluid" src={person.imgUrl} alt="card image" />
-                          <br/><br/><br/>    
-                          <Card.Title>{person.fullName}</Card.Title>
-                          <Card.Subtitle>{person.title}</Card.Subtitle>
-                        </Card>
+                      <Card body className="text-center">
+                        <br />
+                        <Card.Img className="img-fluid" src={person.imgUrl} alt="card image" />
+                        <br />
+                        <br />
+                        <br />
+                        <Card.Title>{person.fullName}</Card.Title>
+                        <Card.Subtitle>{person.title}</Card.Subtitle>
+                      </Card>
                     </div>
                     <div className="backside">
-                        <Card body className="text-center">
-                          <Card.Title>{person.fullName}</Card.Title>
-                          <Card.Subtitle>{person.bio}</Card.Subtitle>
-                          <br></br>
-                          <ul className="list-inline social-buttons">
-                            <li className="list-inline-item">
-                              <a href={`mailto:${person.email}`}>
-                                <i className="fas fa-envelope text-white"></i>
-                              </a>
-                            </li>
-                            <li className="list-inline-item">
-                              <a href={person.linkedIn}>
-                                <i className="fab fa-linkedin-in text-white"></i>
-                              </a>
-                            </li>
-                          </ul>
-                        </Card>
+                      <Card body className="text-center">
+                        <Card.Title>{person.fullName}</Card.Title>
+                        <Card.Subtitle>{person.bio}</Card.Subtitle>
+                        <br></br>
+                        <ul className="list-inline social-buttons">
+                          <li className="list-inline-item">
+                            <a href={`mailto:${person.email}`}>
+                              <i className="fas fa-envelope text-white"></i>
+                            </a>
+                          </li>
+                          <li className="list-inline-item">
+                            <a href={person.linkedIn}>
+                              <i className="fab fa-linkedin-in text-white"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </Card>
                     </div>
                   </div>
                 </div>
