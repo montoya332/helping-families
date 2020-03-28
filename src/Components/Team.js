@@ -25,9 +25,10 @@ const Team = () => {
                     </div>
                     <div className="backside">
                       <Card>
-                        <div className="card-body text-center mt-4">
-                          <h4 className="card-title">{person.fullName}</h4>
-                          <h6 className="card-text text-small">{person.bio}</h6>
+                        <Card.Body className="card-body text-center mt-4">
+                          <Card.Title className="card-title">{person.fullName}</Card.Title>
+                          <Card.Subtitle className="card-text text-small">{person.bio}</Card.Subtitle>
+                          <br></br>
                           <ul className="list-inline social-buttons">
                             <li className="list-inline-item">
                               <a href={`mailto:${person.email}`}>
@@ -40,7 +41,7 @@ const Team = () => {
                               </a>
                             </li>
                           </ul>
-                        </div>
+                        </Card.Body>
                       </Card>
                     </div>
                   </div>
