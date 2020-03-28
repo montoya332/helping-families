@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.0.2"
+    "prettier": "^2.0.2",
+    "react-test-renderer": "^16.13.1"
   }
 }
