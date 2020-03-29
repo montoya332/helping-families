@@ -1,4 +1,4 @@
-const Workshops = [
+const workshops = [
   {
     header: 'Workshop',
     title: 'Helpful Tips During Social Distancing',
@@ -20,4 +20,4 @@ const Workshops = [
       'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F92912059%2F408932228207%2F1%2Foriginal.20200218-001752?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C890%2C445&s=bea7c2ef362449fb8ef6305721af5e80'
   }
 ];
-export default Workshops;
+export default workshops;

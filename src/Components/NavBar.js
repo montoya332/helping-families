@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
     <Navbar expanded="lg" fixed="top" variant="light" id="mainNav">
       <div className="container">
@@ -9,7 +9,7 @@ const NavBar = () => {
           <span className="d-none d-sm-inline mr-2">
             <img src="logo.svg" alt="" height="40" />
           </span>
-          Helping Families in Silicon Valley
+          {props.company.companyName}
         </a>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto">

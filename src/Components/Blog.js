@@ -1,13 +1,12 @@
 import React from 'react';
-import Workshops from '../data/workshops';
 
-const Blog = () => {
+const Blog = (props) => {
   return (
     <section id="blog" className="pb-5 bg-light page-section">
       <div className="container">
         <h5 className="section-title h1">Workshops</h5>
         <div className="row mb-2 justify-content-md-center">
-          {Workshops.map((workshop, i) => {
+          {props.workshops.map((workshop, i) => {
             return (
               <div className="col-md-6" key={i}>
                 <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
