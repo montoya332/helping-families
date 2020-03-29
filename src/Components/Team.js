@@ -4,13 +4,13 @@ import Card from 'react-bootstrap/Card';
 
 const Team = () => {
   return (
-    <section id="team" class="pb-5 bg-light page-section">
+    <section id="team" className="pb-5 bg-light page-section">
       <div className="container">
         <h5 className="section-title h1">Founders</h5>
         <div className="row">
-          {teamInfo.map((person) => {
+          {teamInfo.map((person, i) => {
             return (
-              <div className="col-xs-12 col-sm-6 col-md-6 mb-5">
+              <div className="col-xs-12 col-sm-6 col-md-6 mb-5" key={i}>
                 <div className="image-flip">
                   <div className="mainflip">
                     <div className="frontside">
