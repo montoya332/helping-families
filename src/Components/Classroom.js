@@ -2,7 +2,7 @@ import React from 'react';
 
 const Classroom = () => {
   return (
-    <section class="cta bg-img-classroom">
+    <section className="cta bg-img-classroom">
       <div className="cta-content">
         <div className="container">
           <h2>
