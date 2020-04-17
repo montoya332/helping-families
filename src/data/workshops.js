@@ -1,6 +1,16 @@
 const workshops = [
   {
     header: 'Workshop',
+    title: 'Stress Management',
+    date: 'April 23 6:30–7:30 PM PDT',
+    summary:
+        'We all have experienced or currently experincing stress in our lives. Stress can cause lots of negativity and bring up more issues ...',
+    url: 'https://www.eventbrite.com/e/102854911810',
+    imgUrl:
+        'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F98934060%2F408932228207%2F1%2Foriginal.20200417-172509?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C693%2C2100%2C1050&s=0dd750f1783076a86e7302294bec037f'
+  },
+  {
+    header: 'Workshop',
     title: 'Helpful Tips During Social Distancing',
     date: 'March 24 6:30 PM PDT',
     summary:

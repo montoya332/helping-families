@@ -9,7 +9,7 @@ const Blog = (props) => {
           {props.workshops.map((workshop, i) => {
             return (
               <div className="col-md-6" key={i}>
-                <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style={{minHeight:'280px'}}>
                   <div className="col p-4 d-flex flex-column position-static">
                     <strong className="d-inline-block mb-2 text-primary">{workshop.header}</strong>
                     <h3 className="mb-0">{workshop.title}</h3>
