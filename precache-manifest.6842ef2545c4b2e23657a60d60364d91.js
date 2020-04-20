@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02fb5df4fa624e910352506a114a3857",
+    "revision": "bf8b660ba23889ec9516a89da2f68d80",
     "url": "/helping-families/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/helping-families/static/css/2.8b1aa88a.chunk.css"
   },
   {
-    "revision": "435ff14270a65ad9a20b",
-    "url": "/helping-families/static/css/main.9c6a94af.chunk.css"
+    "revision": "fcb431e6d79004f7e948",
+    "url": "/helping-families/static/css/main.e935bbab.chunk.css"
   },
   {
     "revision": "f30eac0e076416749027",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/helping-families/static/js/2.16618025.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "435ff14270a65ad9a20b",
+    "revision": "fcb431e6d79004f7e948",
     "url": "/helping-families/static/js/main.a22d803a.chunk.js"
   },
   {
@@ -92,7 +92,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/helping-families/static/media/fa-solid-900.ec763292.svg"
   },
   {
-    "revision": "3a4119ad7fe60ad3ae59430bcc3d2d06",
-    "url": "/helping-families/static/media/smart_goals_workshop_crop.3a4119ad.jpeg"
+    "revision": "203692a516627be3226b4dc5b0660964",
+    "url": "/helping-families/static/media/smart_goals_workshop_BandW.203692a5.jpeg"
   }
 ]);
