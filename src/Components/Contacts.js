@@ -1,23 +1,23 @@
 import React from 'react';
 
 const Contacts = (props) => {
-    const contactList = [
-      {
-        name: 'instagram',
-        url: props.company.instagram,
-        iconClassName: 'fab fa-instagram'
-      },
-      {
-        name: 'email',
-        url: `mailto:${props.company.email}`,
-        iconClassName: 'fas fa-envelope'
-      },
-      {
-        name: 'facebook',
-        url: props.company.facebook,
-        iconClassName: 'fab fa-facebook'
-      }
-    ];
+  const contactList = [
+    {
+      name: 'instagram',
+      url: props.company.instagram,
+      iconClassName: 'fab fa-instagram'
+    },
+    {
+      name: 'email',
+      url: `mailto:${props.company.email}`,
+      iconClassName: 'fas fa-envelope'
+    },
+    {
+      name: 'facebook',
+      url: props.company.facebook,
+      iconClassName: 'fab fa-facebook'
+    }
+  ];
   return (
     <section className="contact bg-navy-blue-3 text-white" id="contact">
       <div className="container">
