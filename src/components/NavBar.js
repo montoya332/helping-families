@@ -6,8 +6,8 @@ const NavBar = (props) => {
     <Navbar expanded="lg" fixed="top" variant="light" id="mainNav">
       <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          <span className="d-none d-sm-inline mr-2">
-            <img src="logo.svg" alt="" height="40" />
+          <span className="d-none d-sm-inline">
+            <img src="logo.svg" alt="" height="40" className="mr-2" />
           </span>
           {props.company.companyName}
         </a>

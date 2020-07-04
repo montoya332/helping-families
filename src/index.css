@@ -165,11 +165,6 @@ header.masthead {
   color: white;
   background-position: center;
   background-size: cover;
-  /*
-  background: url("./img/bg-pattern.png"), #7b4397;
-  background: url("./img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("./img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
-  */
 }
 
 header.masthead .header-content {
@@ -193,8 +188,8 @@ header.masthead .device-container .screen img {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 775px;
+    height: 30vh;
+    min-height: 400px;
     padding-top: 0;
     padding-bottom: 0;
   }
