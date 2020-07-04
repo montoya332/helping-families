@@ -1,13 +1,13 @@
 import React from 'react';
 import './team.css';
-import NavBar from './Components/NavBar';
-import Header from './Components/Header';
-import Blog from './Components/Blog';
-import Vision from './Components/Vision';
-import Team from './Components/Team';
-import Classroom from './Components/Classroom';
-import Contacts from './Components/Contacts';
-import Footer from './Components/Footer';
+import NavBar from './components/NavBar';
+import Header from './components/Header';
+import Blog from './components/Blog';
+import Vision from './components/Vision';
+import Team from './components/Team';
+import Classroom from './components/Classroom';
+import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 import company, {teamInfo} from './data/companyInfo';
 import workshops from './data/workshops';
 
