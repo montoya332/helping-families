@@ -54,10 +54,13 @@ const location = window.location;
   window.$ = $;
   // Collapse Navbar
   var navbarCollapse = function () {
-    if ($('#mainNav').offset().top > 200) {
-      $('#mainNav').addClass('navbar-shrink');
+    var mainNavElm = $('#mainNav')
+    if(!mainNavElm.length){
+
+    } else if (mainNavElm.offset().top > 200) {
+      mainNavElm.addClass('navbar-shrink');
     } else {
-      $('#mainNav').removeClass('navbar-shrink');
+      mainNavElm.removeClass('navbar-shrink');
       var top = window.document.documentElement.scrollTop || window.document.body.scrollTop;
       if (top === -1) {
         $('html, body').animate({scrollTop: 0}, 1);

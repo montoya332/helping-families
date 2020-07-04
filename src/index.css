@@ -151,6 +151,10 @@ section h2 {
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
     color: #ffff;
   }
+  #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+  #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+    color: blue;
+  }
 }
 
 header.masthead {
@@ -338,24 +342,16 @@ section.cta .overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-section.contact {
-  text-align: center;
-}
 
-section.contact h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-}
 
-section.contact h2 i {
-  color: #dd4b39;
-}
 
-section.contact ul.list-social {
+
+
+ul.list-social {
   margin-bottom: 0;
 }
 
-section.contact ul.list-social li a {
+ul.list-social li a {
   font-size: 40px;
   line-height: 80px;
   display: block;
@@ -365,29 +361,7 @@ section.contact ul.list-social li a {
   border-radius: 100%;
 }
 
-section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
-}
 
-section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
-}
-
-section.contact ul.list-social li.social-facebook a {
-  background-color: #3b5998;
-}
-
-section.contact ul.list-social li.social-facebook a:hover {
-  background-color: #344e86;
-}
-
-section.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
-}
-
-section.contact ul.list-social li.social-google-plus a:hover {
-  background-color: #d73925;
-}
 
 footer {
   padding: 25px 0;
@@ -460,4 +434,35 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .bg-navy-blue-4{
   background-color: #274fa1;
+}
+.bg-triangle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% auto
+}
+
+.bg-triangle-left {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><path d='M0 100 V 90 L 10 100 Z' fill='%23212529' fill-opacity='0.03'></path><path d='M0 90 V 80 L 10 90 Z' fill='%23212529' fill-opacity='0.045'></path><path d='M10 100 V 90 L 20 100 Z' fill='%23212529' fill-opacity='0.025'></path><path d='M0 90 H 10 V 100 Z' fill='%23212529' fill-opacity='0.06'></path></svg>")
+}
+
+.bg-triangle-left.bg-triangle-light {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><path d='M0 100 V 90 L 10 100 Z' fill='white' fill-opacity='0.03'></path><path d='M0 90 V 80 L 10 90 Z' fill='white' fill-opacity='0.045'></path><path d='M10 100 V 90 L 20 100 Z' fill='white' fill-opacity='0.025'></path><path d='M0 90 H 10 V 100 Z' fill='white' fill-opacity='0.06'></path></svg>")
+}
+
+.bg-triangle-right {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><path d='M100 100 V 90 L 90 100 Z' fill='%23212529' fill-opacity='0.045'></path><path d='M100 90 V 80 L 90 90 Z' fill='%23212529' fill-opacity='0.015'></path><path d='M90 100 V 90 L 80 100 Z' fill='%23212529' fill-opacity='0.03'></path><path d='M90 100 V 90 H 100 Z' fill='%23212529' fill-opacity='0.06'></path></svg>")
+}
+
+.bg-triangle-right.bg-triangle-light {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><path d='M100 100 V 90 L 90 100 Z' fill='white' fill-opacity='0.045'></path><path d='M100 90 V 80 L 90 90 Z' fill='white' fill-opacity='0.015'></path><path d='M90 100 V 90 L 80 100 Z' fill='white' fill-opacity='0.03'></path><path d='M90 100 V 90 H 100 Z' fill='white' fill-opacity='0.06'></path></svg>")
+}
+
+.bg-triangle-top {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1)
 }
