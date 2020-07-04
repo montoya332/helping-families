@@ -54,9 +54,8 @@ const location = window.location;
   window.$ = $;
   // Collapse Navbar
   var navbarCollapse = function () {
-    var mainNavElm = $('#mainNav')
-    if(!mainNavElm.length){
-
+    var mainNavElm = $('#mainNav');
+    if (!mainNavElm.length) {
     } else if (mainNavElm.offset().top > 200) {
       mainNavElm.addClass('navbar-shrink');
     } else {

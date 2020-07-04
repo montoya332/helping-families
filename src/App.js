@@ -8,7 +8,7 @@ import Team from './components/Team';
 import Classroom from './components/Classroom';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
-import company, {teamInfo} from './data/companyInfo';
+import company, {teamInfo, boardMembers} from './data/companyInfo';
 import workshops from './data/workshops';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Header company={company} />
       <Blog workshops={workshops} />
       <Vision company={company} />
-      <Team teamInfo={teamInfo} />
+      <Team teamInfo={teamInfo} boardMembers={boardMembers} />
       <Classroom />
       <Contacts company={company} />
       <Footer />
