@@ -461,3 +461,35 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1)
 }
+.image-flip:hover .image-caption-wrapper,
+.image-flip.hover .image-caption-wrapper {
+  opacity: 1;
+  visibility: visible;
+}
+.image-caption-wrapper {
+  opacity: 0;
+  transition: opacity .1s ease-out;
+  visibility: hidden;
+
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 18px;
+  background: rgba(0,0,0,.7);
+  max-height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.image-caption-wrapper:focus:hover {
+  opacity: 1;
+  visibility: visible;
+}
+.image-caption {
+  transition: margin-bottom .1s ease-out;
+  margin-bottom: -5px;
+}
+.image-caption p{
+  color: #bbb;
+}
