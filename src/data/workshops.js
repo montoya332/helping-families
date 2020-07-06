@@ -6,7 +6,8 @@ const workshops = [
     summary:
       'Helping Families in Silicon Valley brings you three amazing women that will uplift and strengthen you with their story.',
     url: 'https://www.eventbrite.com/e/virtual-women-empowerment-workshop-tickets-106029085850',
-    imgUrl:'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F102297510%2F408932228207%2F1%2Foriginal.20200531-180113?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2100%2C1050&s=b2b0bdb98e56f78a48298c1d76cfd227'
+    imgUrl:
+      'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F102297510%2F408932228207%2F1%2Foriginal.20200531-180113?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2100%2C1050&s=b2b0bdb98e56f78a48298c1d76cfd227'
   },
   {
     header: 'Workshop',

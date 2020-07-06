@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 const MemberCard = (props) => {
   return (
-    <div className="card team" style={{minHeight:'400px'}}>
+    <div className="card team" style={{minHeight: '400px'}}>
       <div className="front image-flip">
         <div className="cover bg-navy-blue-3"></div>
         <div className="user">
@@ -61,7 +61,7 @@ const Team = (props) => {
             {props.teamInfo.map((person, i) => {
               return (
                 <div className="col-xs-12 col-sm-6 col-md-6 mb-5" key={i}>
-                  <MemberCard {...person}/>
+                  <MemberCard {...person} />
                 </div>
               );
             })}
