@@ -1,6 +1,15 @@
 const workshops = [
   {
     header: 'Workshop',
+    title: 'Motivational Workshop',
+    date: 'July 16 6:30–7:30 PM PDT',
+    summary:
+      'Helping Families in Silicon Valley brings you a motivational workshop. Our presenter will walk you through techniques on how to stay motivated and focused on goals.',
+    url: 'https://www.eventbrite.com/e/motivational-workshop-with-mindy-deeble-tickets-111744378444',
+    imgUrl:'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F105539428%2F408932228207%2F1%2Foriginal.20200707-155533?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C37%2C2100%2C1050&s=5a03f896a045e821da0b0f231f3303a6'
+  },
+  {
+    header: 'Workshop',
     title: 'Virtual Women Empowerment Workshop',
     date: 'June 4 6:30–7:30 PM PDT',
     summary:

@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const NavBar = (props) => {
   return (
-    <Navbar bg="light" expand="lg" fixed="top">
+    <Navbar expand="lg" fixed="top" id="mainNav">
       <Navbar.Brand href="#home">
         <span className="d-none d-lg-inline">
           <img src="logo.svg" alt="" height="40" className="mr-2" />
