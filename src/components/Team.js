@@ -4,7 +4,7 @@ const MemberCard = (props) => {
   return (
     <div className="card team" style={{minHeight: '400px'}}>
       <div className="front image-flip">
-        <div className="cover bg-navy-blue-3"></div>
+        <div className="cover bg-navy-blue-3 bg-triangles"></div>
         <div className="user">
           <img className="img-circle" src={props.imgUrl} />
         </div>
