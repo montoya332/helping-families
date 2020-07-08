@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Button from 'react-bootstrap/Button';
 
 const NavBar = (props) => {
   return (
@@ -14,6 +14,13 @@ const NavBar = (props) => {
         <span className="d-lg-none d-xl-none">
           <img src="logo_dark.svg" alt="" height="40" className="mr-2" />
         </span>
+        <Button
+          href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VFZQL9TJ28Y52&source=url"
+          className="float-right ml-3"
+          variant="outline-warning"
+        >
+          Donate
+        </Button>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
