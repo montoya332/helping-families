@@ -55,14 +55,14 @@ const location = window.location;
   // Collapse Navbar
   var navbarCollapse = function () {
     var mainNavElm = $('#mainNav');
-    var whiteBrandImg = $('#white-brand-img')
+    var whiteBrandImg = $('#white-brand-img');
     if (!mainNavElm.length) {
     } else if (mainNavElm.offset().top > 200) {
       mainNavElm.addClass('navbar-shrink');
-      whiteBrandImg.attr("src", "logo_dark.svg");
+      whiteBrandImg.attr('src', 'logo_dark.svg');
     } else {
       mainNavElm.removeClass('navbar-shrink');
-      whiteBrandImg.attr("src","logo.svg");
+      whiteBrandImg.attr('src', 'logo.svg');
 
       var top = window.document.documentElement.scrollTop || window.document.body.scrollTop;
       if (top === -1) {
