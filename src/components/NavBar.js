@@ -8,7 +8,7 @@ const NavBar = (props) => {
     <Navbar expand="lg" fixed="top" id="mainNav">
       <Navbar.Brand href="#home">
         <span className="d-none d-lg-inline">
-          <img src="logo.svg" alt="" height="40" className="mr-2" />
+          <img src="logo.svg" alt="" height="40" className="mr-2" id="white-brand-img" />
           {props.company.companyName}
         </span>
         <span className="d-lg-none d-xl-none">
