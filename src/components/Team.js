@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Card from 'react-bootstrap/Card';
-const MemberCard = ({imgUrl,fullName,title,email,linkedIn,bio,...props}) => {
+const MemberCard = ({imgUrl, fullName, title, email, linkedIn, bio, ...props}) => {
   return (
     <div className="card team" style={{minHeight: '400px'}}>
       <div className="front image-flip">

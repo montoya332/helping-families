@@ -4,11 +4,11 @@ import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 
 const NavBar = (props) => {
-  let whiteBrandImg = 'logo.svg'
-  let shrinkClass = ''
-  if (props.scrollY > 200) {
-    whiteBrandImg='logo_dark.svg'
-    shrinkClass ='navbar-shrink'
+  let whiteBrandImg = 'logo.svg';
+  let shrinkClass = '';
+  if (props.scrollY > 20) {
+    whiteBrandImg = 'logo_dark.svg';
+    shrinkClass = 'navbar-shrink';
   }
 
   return (
