@@ -1,27 +1,27 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Card from 'react-bootstrap/Card';
-const MemberCard = (props) => {
+const MemberCard = ({imgUrl,fullName,title,email,linkedIn,bio,...props}) => {
   return (
     <div className="card team" style={{minHeight: '400px'}}>
       <div className="front image-flip">
         <div className="cover bg-navy-blue-3 bg-triangles"></div>
         <div className="user">
-          <img className="img-circle" src={props.imgUrl} />
+          <img className="img-circle" src={imgUrl} />
         </div>
         <div className="content">
           <div className="main">
-            <h3 className="name">{props.fullName}</h3>
-            <p className="profession">{props.title}</p>
+            <h3 className="name">{fullName}</h3>
+            <p className="profession">{title}</p>
           </div>
           <div className="footer">
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
-                <a href={`mailto:${props.email}`}>
+                <a href={`mailto:${email}`}>
                   <i className="fas fa-envelope text-white"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href={props.linkedIn}>
+                <a href={linkedIn}>
                   <i className="fab fa-linkedin-in text-white"></i>
                 </a>
               </li>
@@ -30,16 +30,16 @@ const MemberCard = (props) => {
         </div>
         <div className="image-caption-wrapper">
           <div className="image-caption">
-            <p>{props.bio}</p>
+            <p>{bio}</p>
             <div className="footer">
               <ul className="list-inline social-buttons">
                 <li className="list-inline-item">
-                  <a href={`mailto:${props.email}`}>
+                  <a href={`mailto:${email}`}>
                     <i className="fas fa-envelope text-white"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href={props.linkedIn}>
+                  <a href={linkedIn}>
                     <i className="fab fa-linkedin-in text-white"></i>
                   </a>
                 </li>
