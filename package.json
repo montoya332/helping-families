@@ -20,9 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
-    "deploy:gcloud": "gsutil -m rsync -R build gs://www.helpingfamiliesinsv.org/"
+    "deploy:gcloud": "yarn build & gsutil -m rsync -R build gs://www.helpingfamiliesinsv.org/"
   },
   "eslintConfig": {
     "extends": "react-app"
